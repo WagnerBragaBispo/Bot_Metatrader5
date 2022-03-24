@@ -10,6 +10,7 @@
 
 # Add Python python --version.X to PATH%
 
+
 from datetime import datetime
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -18,8 +19,8 @@ register_matplotlib_converters()
 import MetaTrader5 as mt5
 
 
-print('Versão do pandas -> %s' % pandas.__version__)
-print('Versão do matplotlib -> %s' % matplotlib.__version__)
+## print('Versão do pandas -> %s' % pandas.__version__)
+## print('Versão do matplotlib -> %s' % matplotlib.__version__)
 
 # conecte-se ao MetaTrader 5
 if not mt5.initialize():
